@@ -1,0 +1,17 @@
+venv/ 
+.venv/ 
+env/ 
+logs/
+examples/*
+
+__pycache__/ 
+**/__pycache__/
+
+*.pyc
+*.pyo
+*.pyd
+
+.idea/
+
+*.log
+.env
