@@ -1,4 +1,5 @@
 from scrappers.welcome_to_the_jungle_scraper import WelcomeToTheJungleScraper
+from scrappers.free_work_scraper import FreeWorkScraper
 
 
 def main():
@@ -6,6 +7,7 @@ def main():
 
     try:
         scraper = WelcomeToTheJungleScraper()
+        scraper = FreeWorkScraper()
         jobs = scraper.search_jobs("Data Engineer", "Paris", num_pages=1)
         print(f"Found {len(jobs)} jobs:")
         print("---")

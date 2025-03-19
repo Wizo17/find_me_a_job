@@ -1,6 +1,6 @@
 from typing import List, Dict, Any, Optional
 from datetime import datetime
-from .base_scraper import BaseScraper
+from scrappers.base_scraper import BaseScraper
 import re
 import urllib.parse
 
