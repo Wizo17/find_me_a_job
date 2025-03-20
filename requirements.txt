@@ -4,3 +4,13 @@ beautifulsoup4
 selenium
 webdriver-manager
 playwright
+pydantic
+python-dotenv
+setuptools
+langchain
+langchain-community
+langchain-ollama
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+ollama
