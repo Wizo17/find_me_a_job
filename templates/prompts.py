@@ -30,5 +30,8 @@ Base URL: {base_url}
 HTML content:
 {html_content}
 
+Examples of expected job_url format:
+{job_url_examples}
+
 Please return the result as a JSON list in the specified format. 
 """
